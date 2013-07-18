@@ -8,7 +8,9 @@ README = open(os.path.join(here, 'README.md')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'simplejson'
+    'simplejson',
+    'psycopg2',
+    'pyparsing',
 ]
 
 #
