@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from pyparsing import *
-from osm_abbr_parser import OsmAbbrParser
+from ott.abrev.osm_abbr_parser import OsmAbbrParser
 
 tests = """\
     3120 De la Cruz Boulevard

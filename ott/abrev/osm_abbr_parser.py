@@ -10,10 +10,10 @@ class OsmAbbrParser():
         """
 
         # step 1: load in .csv files used for parsing, find/replace and string fixups
-        self.street_types_kw, self.street_types = self.load_replace_csv('street_types.csv')
-        self.dir_types_kw,    self.dir_types    = self.load_replace_csv('dir_types.csv')
-        self.str_replace_kw,  self.str_replace  = self.load_replace_csv('string_replace.csv')
-        self.str_ignore_kw,   self.str_ignore   = self.load_replace_csv('string_ignore_replace.csv')
+        self.street_types_kw, self.street_types = self.load_replace_csv('ott/abrev/street_types.csv')
+        self.dir_types_kw,    self.dir_types    = self.load_replace_csv('ott/abrev/dir_types.csv')
+        self.str_replace_kw,  self.str_replace  = self.load_replace_csv('ott/abrev/string_replace.csv')
+        self.str_ignore_kw,   self.str_ignore   = self.load_replace_csv('ott/abrev/string_ignore_replace.csv')
         self.str_ignore_kw = self.str_ignore_kw.lower()
 
         # step 2a: build the keyword list for street types from our .csv files

@@ -8,7 +8,7 @@ import os
 import sys
 import time
 
-from   osm_abbr_parser import OsmAbbrParser
+from ott.abrev.osm_abbr_parser import OsmAbbrParser
 import pgdb
 
 
